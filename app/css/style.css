@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Roboto:400,700");
+.app {
+  font-family: "Arimo", Arial, sans-serif; }
+
+.app_header {
+  font-family: "Fjalla One", Arial, sans-serif;
+  font-size: 22px;
+  letter-spacing: .01em;
+  background-color: #262626;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.app_section {
+  margin-top: 40px; }
+
+.app_form_button {
+  width: 100%;
+  background-color: #50b930;
+  color: #ffffff;
+  font-weight: bold; }
+
+.app_form_select {
+  font-size: 14px;
+  opacity: 0;
+  transition: 0.4s; }
+
+.form-control.app_form_input-full,
+.full-width {
+  width: 100%; }
+
+.app_demarcator,
+.app_form_pipe {
+  color: #989898;
+  font-weight: normal; }
+
+.app_form_infobox {
+  opacity: 0;
+  transition: 0.4s;
+  clear: both;
+  font-size: 14px; }
+
+.app_form_infobox.form-control {
+  height: auto; }
+
+.app_form_infobox_image {
+  width: 200px;
+  float: left;
+  margin-right: 12px; }
+
+.app_form_infobox_image img {
+  height: 200px;
+  width: 200px; }
+
+.app_form_infobox_imagectrl {
+  clear: both;
+  text-align: center; }
+
+.app_form_infobox_imagectrl button {
+  float: left;
+  background-color: #336eb2;
+  color: #ffffff; }
+
+.app_form_infobox_imagectrl button:last-of-type {
+  float: right; }
+
+.app_form_infobox_counter {
+  display: inline;
+  line-height: 32px;
+  color: #989898;
+  font-size: 12px; }
+
+.app_form_prompt {
+  color: #989898;
+  font-size: 14px; }
+
+.app_form .alert-info {
+  background-color: #ededed;
+  border: 1px solid #dddddd; }

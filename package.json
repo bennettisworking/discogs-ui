@@ -1,0 +1,19 @@
+{
+  "name": "discogs-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.2",
+    "jshint": "^2.9.7",
+    "jshint-stylish": "^2.2.1"
+  }
+}

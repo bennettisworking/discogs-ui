@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto:400,700');
+
+$main-font: "Arimo", Arial, sans-serif;
+$logo-font: "Fjalla One", Arial, sans-serif;
+$bg-color: #262626;
+$header-text: #ffffff;
+$light-text: #989898;
+$action-color: #50b930;
+$action-text: #ffffff;
+$primary-color: #336eb2;
+$primary-text: #ffffff;
+
+.app {
+  font-family: $main-font;
+}
+
+.app_header {
+  font-family: $logo-font;
+  font-size: 22px;
+  letter-spacing: .01em;
+  background-color: $bg-color;
+  color: $header-text;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.app_section {
+  margin-top: 40px;
+}
+
+.app_form_button {
+  width: 100%;
+  background-color: $action-color;
+  color: $action-text;
+  font-weight: bold;
+}
+
+.app_form_select {
+  font-size: 14px;
+  opacity: 0;
+  transition: 0.4s;
+}
+.form-control.app_form_input-full,
+.full-width {
+  width: 100%;
+}
+
+.app_demarcator,
+.app_form_pipe {
+  color: $light-text;
+  font-weight: normal;
+}
+
+.app_form_infobox {
+  opacity: 0;
+  transition: 0.4s;
+  clear: both;
+  font-size: 14px;
+}
+
+.app_form_infobox.form-control {
+  height: auto;
+}
+
+.app_form_infobox_image {
+  width: 200px;
+  float: left;
+  margin-right: 12px;
+}
+.app_form_infobox_image img {
+  height: 200px;
+  width: 200px;
+}
+
+.app_form_infobox_imagectrl {
+  clear: both;
+  text-align: center;
+}
+
+.app_form_infobox_imagectrl button {
+  float: left;
+  background-color: $primary-color;
+  color: $primary-text;
+}
+
+.app_form_infobox_imagectrl button:last-of-type {
+  float: right;
+}
+
+.app_form_infobox_counter {
+  display: inline;
+  line-height: 32px;
+  color: $light-text;
+  font-size: 12px;
+}
+
+.app_form_prompt {
+  color: $light-text;
+  font-size: 14px;
+}
+.app_form .alert-info {
+  background-color: #ededed;
+  border: 1px solid #dddddd;
+}
