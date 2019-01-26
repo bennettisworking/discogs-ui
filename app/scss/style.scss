@@ -8,7 +8,7 @@ $light-text: #989898;
 $action-color: #50b930;
 $action-text: #ffffff;
 $primary-color: #336eb2;
-$primary-text: #ffffff;
+$primary-text: #ededed;
 
 .app {
   font-family: $main-font;
@@ -41,6 +41,7 @@ $primary-text: #ffffff;
   opacity: 0;
   transition: 0.4s;
 }
+
 .form-control.app_form_input-full,
 .full-width {
   width: 100%;

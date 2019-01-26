@@ -60,7 +60,7 @@
 .app_form_infobox_imagectrl button {
   float: left;
   background-color: #336eb2;
-  color: #ffffff; }
+  color: #ededed; }
 
 .app_form_infobox_imagectrl button:last-of-type {
   float: right; }
