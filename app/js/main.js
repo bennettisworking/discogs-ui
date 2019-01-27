@@ -165,6 +165,7 @@ class App {
     this.formUI.gallery.init(record);
   }
   releaseSearch() {
+    this.formUI.releaseInfo.style.opacity = 0;
     let a = this.formUI.artistNameInput.value;
     let t = this.formUI.releaseTitleInput.value;
     let y = this.formUI.releaseYearInput.value;
