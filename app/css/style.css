@@ -1,16 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Teko|Roboto:400,700");
 .app {
   font-family: "Arimo", Arial, sans-serif; }
 
 .app_header {
-  font-family: "Fjalla One", Arial, sans-serif;
-  font-size: 22px;
+  font-family: "Teko", Arial, sans-serif;
+  font-size: 26px;
   letter-spacing: .01em;
   background-color: #262626;
   color: #ffffff;
   padding: 10px;
   margin-bottom: 15px;
-  font-weight: bold; }
+  /*font-weight: bold;*/ }
+
+.app_header_logo img {
+  margin: -4px 2px 0 0; }
 
 .app_section {
   margin-top: 40px; }

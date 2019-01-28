@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Teko|Roboto:400,700');
 
 $main-font: "Arimo", Arial, sans-serif;
-$logo-font: "Fjalla One", Arial, sans-serif;
+$logo-font: "Teko", Arial, sans-serif;
 $bg-color: #262626;
 $header-text: #ffffff;
 $light-text: #989898;
@@ -16,13 +16,17 @@ $primary-text: #ededed;
 
 .app_header {
   font-family: $logo-font;
-  font-size: 22px;
+  font-size: 26px;
   letter-spacing: .01em;
   background-color: $bg-color;
   color: $header-text;
   padding: 10px;
   margin-bottom: 15px;
-  font-weight: bold;
+  /*font-weight: bold;*/
+}
+
+.app_header_logo img{
+  margin: -4px 2px 0 0;
 }
 
 .app_section {
