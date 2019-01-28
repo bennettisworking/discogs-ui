@@ -11,3 +11,5 @@ browser-sync\
 gulp-sass\
 gulp-jshint\
 jshint-stylish
+
+See it live at <a href="http://bennettsportfolio.com/projects/discogs/" targe="_blank">http://bennettsportfolio.com/projects/discogs/</a>
