@@ -12,38 +12,37 @@
 <body>
   <div class="app">
     <div style="height: 120px; width: 100%; background-image: url(assets/vinyl_bg.png); background-size: cover;"></div>
-    <header class="app_header col-lg-12">
-
-      <div class="app_header_logo">
-        <img src="assets/record.png"></i> Discogs Quick Search
+    <header class="header col-lg-12">
+      <div class="header__logo">
+        <img class="header__img" src="assets/record.png"></i> Discogs Quick Search
       </div>
     </header>
-    <section class="app_section col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-      <div class="form-inline app_form">
-        <div class="app_form_prompt col-lg-12 col-md-12 alert alert-info" id="prompt">Fill out as many fields as possible and click the search button to retrieve all applicable releases.
+    <section class="section col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+      <div class="form form-inline">
+        <div class="form__prompt col-lg-12 col-md-12 alert alert-info" id="prompt">Fill out as many fields as possible and click the search button to retrieve all applicable releases.
         </div>
         <input type="text" class="col-sm-12 form-control mb-2" id="artistName" placeholder="Artist Name">
         <input type="text" class="col-sm-12 form-control mb-2" id="releaseTitle" placeholder="Release Title">
         <select type="text" class="col-sm-12 col-lg-7 col-md-7 form-control" id="releaseCountry" placeholder="Country"></select>
         <div class="col-lg-3 col-md-3 col-sm-12 pl-0 pl-md-2 pr-0 mt-2 mt-md-0">
-          <input type="text" class="form-control app_form_input-full" id="releaseYear" placeholder="Year">
+          <input type="text" class="form-control form__input--full" id="releaseYear" placeholder="Year">
         </div>
         <div class="col-12 col-lg-2 col-md-2 pr-0 pl-0 pl-md-2 mt-4 mt-md-0">
-          <button id="artistNameSubmit" class="btn app_form_button">Search</button>
+          <button id="artistNameSubmit" class="btn form__button">Search</button>
         </div>
-        <select id="selectRelease" class="app_form_select form-control mt-4 mt-md-2 col-12 mb-2">
+        <select id="selectRelease" class="form__select form-control mt-4 mt-md-2 col-12 mb-2">
           </select>
-        <div id="releaseInfo" class="form-control col-lg-12 col-md-12 app_form_infobox">
+        <div id="releaseInfo" class="form-control col-lg-12 col-md-12 infobox">
           <div class="row">
-            <div class="app_form_infobox_image mt-1 mb-1 col-xl-4 col-md-5 col-sm-6 order-2 order-sm-1">
+            <div class="infobox__image mt-1 mb-1 col-xl-4 col-md-5 col-sm-6 order-2 order-sm-1">
               <img id="recordImage">
-              <div class="app_form_infobox_imagectrl mt-2">
-                <button id="galleryPrev" class="btn"><</button>
-                <div id="galleryCounter" class="app_form_infobox_counter mt-2">Meow</div>
-                <button id="galleryNext" class="btn">></button>
+              <div class="infobox__imagectrl mt-2">
+                <button id="galleryPrev" class="btn infobox__button"><</button>
+                <div id="galleryCounter" class="infobox__counter mt-2">Meow</div>
+                <button id="galleryNext" class="btn infobox__button">></button>
               </div>
             </div>
-            <div id="releaseInfoText" class="app_form_infobox_text mt-1 col-12 col-sm-6 col-md-7 col-xl-8 order-1 order-sm-2"> meow meow meow
+            <div id="releaseInfoText" class="infobox__text mt-1 col-12 col-sm-6 col-md-7 col-xl-8 order-1 order-sm-2"> meow meow meow
             </div>
         </div>
         </div>

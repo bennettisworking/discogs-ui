@@ -2,7 +2,7 @@
 .app {
   font-family: "Arimo", Arial, sans-serif; }
 
-.app_header {
+.header {
   font-family: "Teko", Arial, sans-serif;
   font-size: 26px;
   letter-spacing: .01em;
@@ -12,70 +12,66 @@
   margin-bottom: 15px;
   /*font-weight: bold;*/ }
 
-.app_header_logo img {
+.header__img {
   margin: -4px 2px 0 0; }
 
-.app_section {
+.section {
   margin-top: 40px; }
 
-.app_form_button {
+.form__button {
   width: 100%;
   background-color: #50b930;
   color: #ffffff;
   font-weight: bold; }
 
-.app_form_select {
+.form__select {
   font-size: 14px;
   opacity: 0;
   transition: 0.4s; }
 
-.form-control.app_form_input-full,
-.full-width {
+.form__input--full.form-control {
   width: 100%; }
 
-.app_demarcator,
-.app_form_pipe {
+.form__prompt.alert-info {
+  color: #989898;
+  font-size: 14px;
+  background-color: #ededed;
+  border: 1px solid #dddddd; }
+
+.form__pipe {
   color: #989898;
   font-weight: normal; }
 
-.app_form_infobox {
+.infobox {
   opacity: 0;
   transition: 0.4s;
   clear: both;
   font-size: 14px; }
 
-.app_form_infobox.form-control {
+.infobox.form-control {
   height: auto; }
 
-.app_form_infobox_image {
+.infobox__image {
   width: 100%; }
 
-.app_form_infobox_image img {
+.infobox__image img {
   height: auto;
   width: 100%; }
 
-.app_form_infobox_imagectrl {
+.infobox__imagectrl {
   clear: both;
   text-align: center; }
 
-.app_form_infobox_imagectrl button {
+.infobox__button {
   float: left;
   background-color: #336eb2;
   color: #ededed; }
 
-.app_form_infobox_imagectrl button:last-of-type {
+.infobox__button:last-of-type {
   float: right; }
 
-.app_form_infobox_counter {
+.infobox__counter {
   display: inline;
   line-height: 32px;
   color: #989898;
   font-size: 12px; }
-
-.app_form_prompt {
-  color: #989898;
-  font-size: 14px; }
-
-.app_form .alert-info {
-  background-color: #ededed;
-  border: 1px solid #dddddd; }
